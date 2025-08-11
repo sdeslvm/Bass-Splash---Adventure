@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		6334BAAA2E422920001FD1B3 /* Bass Splash Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bass Splash Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639898752E4A62C900BC7F22 /* Bass Splash Adventure.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Bass Splash Adventure.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +42,13 @@
 			isa = PBXGroup;
 			children = (
 				6334BAAA2E422920001FD1B3 /* Bass Splash Adventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639898812E4A62C900BC7F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +105,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6334BAAB2E422920001FD1B3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 639898812E4A62C900BC7F22 /* Products */;
+					ProjectRef = 639898752E4A62C900BC7F22 /* Bass Splash Adventure.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6334BAA92E422920001FD1B3 /* Bass Splash Adventure */,
@@ -265,7 +279,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bassplashadv.ujon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -299,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bassplashadv.ujon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
